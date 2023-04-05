@@ -1,0 +1,406 @@
+/* ------------------- footer ------------ */
+
+@media screen and (max-width: 1220px) {
+  /* ---------------- hamburger   ----- */
+  .container,
+  .container-fluid,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    --bs-gutter-x: 10rem;
+  }
+  /* -------------------------------------- */
+  .frame4 {
+    flex-direction: column-reverse;
+    /* max-width: 700px; */
+  }
+  .frame4-left {
+    width: 600px;
+    margin: auto;
+  }
+  .frame4-right {
+    align-items: center;
+    padding-bottom: 40px;
+  }
+  .frame4-box {
+    width: 80%;
+    /* max-width: 1100px; */
+    padding: 0px 24px;
+    min-height: 350px;
+  }
+  .frame4-left {
+    width: 70%;
+    padding: 0px 24px;
+  }
+  /* ------ frame1 -------- */
+
+  /* ----------------- frame3 ------------- */
+  .frame3-box {
+    flex-wrap: wrap;
+  }
+  .frame3-common {
+    width: 425px;
+    height: 515px;
+  }
+  /* -------------------- landing ----------- */
+  .landing-content p {
+    font-size: 60px;
+  }
+  .landing-content {
+    max-width: 950px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  /* ---------------- hamburger   ----- */
+  .container,
+  .container-fluid,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    --bs-gutter-x: 8rem;
+  }
+  .frame3-common {
+    /* width: 306px; */
+    max-width: 306px;
+    height: 476px;
+  }
+
+  /* ---------- frame2 ---- */
+  .frame2-common {
+    width: 45%;
+  }
+
+  /* --------------- frame1 --------- */
+  .frame1-common {
+    width: 47%;
+  }
+  .frame1 {
+    padding-bottom: 75px;
+  }
+
+  /* -------------------- landing ----------- */
+  .landing-content p {
+    font-size: 50px;
+    line-height: 70px;
+  }
+  .landing-content {
+    max-width: 850px;
+  }
+  .landing-but {
+    font-size: 14px;
+  }
+  .l-but1 {
+    width: 280px;
+    height: 57px;
+  }
+  .l-but2 {
+    width: 170px;
+    height: 57px;
+  }
+  .landing-but {
+    margin-top: 8px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* ---------------- hamburger   ----- */
+  .container,
+  .container-fluid,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    --bs-gutter-x: 5rem;
+  }
+  /* ---------------- footer -------- */
+  .footer-list {
+    font-size: 10px;
+  }
+  .footer-copyright {
+    font-size: 12px;
+  }
+  /* ----------------- */
+  /* ------ frame5 ----- */
+  .frame5-content h4 {
+    font-size: 24px;
+  }
+
+  .frame5-content p {
+    font-size: 16px;
+  }
+  .frame5-content {
+    width: 90%;
+    position: absolute;
+    left: 30px;
+    top: 38px;
+  }
+  .frame5-container {
+    padding: 50px 20px;
+  }
+  /* ----------- frame4 --------- */
+  .frame4-box {
+    width: 90%;
+    /* max-width: 1100px; */
+    padding: 0px 24px;
+    min-height: 350px;
+  }
+  .frame4-left {
+    width: 80%;
+    padding: 0px 24px;
+  }
+  .frame4-container {
+    padding: 50px 20px;
+  }
+
+  /* ---------------- frame1 ----------- */
+  .frame1-box {
+    padding: 50px 24px;
+  }
+  .frame3 {
+    padding: 50px 12px;
+  }
+  .frame1 {
+    padding-bottom: 50px;
+  }
+  /* -------------------- landing ----------- */
+  .landing-content p {
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .landing-content {
+    max-width: 660px;
+  }
+  .landing-but {
+    font-size: 12px;
+    margin-top: -16px;
+  }
+  .l-but1 {
+    width: 240px;
+    height: 50px;
+    margin: 4px;
+  }
+  .l-but2 {
+    width: 130px;
+    height: 50px;
+    margin: 4px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  /* ---------------- hamburger   ----- */
+  .container,
+  .container-fluid,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    --bs-gutter-x: 4rem;
+  }
+  /* ---------- frame2 ---- */
+  .frame2-common {
+    width: 70%;
+  }
+  /* --------------- frame1 --------- */
+  /* .frame1-common {
+    width: 70%;
+  } */
+  /* -------------------- landing ----------- */
+  .landing-content p {
+    font-size: 30px;
+    line-height: 50px;
+  }
+  .landing-content {
+    max-width: 660px;
+  }
+  .landing-but {
+    font-size: 12px;
+    margin-top: -39px;
+  }
+  .l-but1 {
+    width: 240px;
+    height: 45px;
+    margin: 4px;
+  }
+  .l-but2 {
+    width: 130px;
+    height: 45px;
+    margin: 4px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  /* --------------- frame1 --------- */
+  .frame1-common {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  /* ---------------- hamburger   ----- */
+  .container,
+  .container-fluid,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    --bs-gutter-x: 1rem;
+  }
+  .footer-list {
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 36px 12px 42px 12px;
+  }
+  .footer-icon {
+    margin: 38px 16px 0px 16px;
+  }
+  .footer-line {
+    margin-top: 16px;
+  }
+  .footer-copyright {
+    margin-top: 15px;
+  }
+
+  /* ---------- frame5 ------ */
+  .frame5-content h4 {
+    font-size: 20px;
+  }
+
+  .frame5-content p {
+    font-size: 14px;
+  }
+  .frame5-content {
+    width: 90%;
+    position: absolute;
+    left: 20px;
+    top: 30px;
+  }
+
+  /* -------- frame4 -------- */
+  .frame4-box {
+    padding: 0px 16px;
+  }
+  .frame4-left {
+    width: 100%;
+    padding: 0px 10px;
+  }
+  .frame4-container {
+    padding: 30px 16px;
+  }
+  .frame4-right {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* ---------- frame1 ------ */
+  .frame1-common {
+    width: 100%;
+  }
+
+  /* ---------- frame3 ------- */
+  .frame3-common {
+    /* width: 306px; */
+    max-width: 306px;
+    height: 476px;
+  }
+  .frame1-box {
+    padding: 25px 10px;
+  }
+  .frame3 {
+    padding: 50px 12px;
+  }
+
+  /* ---------- frame2 ---- */
+  .frame2-common {
+    width: 100%;
+  }
+  /* -------------------- landing ----------- */
+  .landing-content p {
+    font-size: 25px;
+    line-height: 45px;
+  }
+  .landing-content {
+    max-width: 1000px;
+  }
+  .landing-but {
+    font-size: 11px;
+    margin-top: -54px;
+  }
+  .l-but1 {
+    width: 200px;
+    height: 42px;
+    margin: 3px;
+  }
+  .l-but2 {
+    width: 100px;
+    height: 42px;
+    margin: 3px;
+  }
+  .landing-content-final {
+    padding: 195px 5px 30px 5px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  /* ----------------- frame5 --------- */
+  .frame5-content h4 {
+    font-size: 18px;
+  }
+
+  .frame5-content p {
+    font-size: 12px;
+  }
+  .frame5-content {
+    width: 90%;
+    position: absolute;
+    left: 15px;
+    top: 20px;
+  }
+  .frame5-container {
+    padding: 30px 20px;
+  }
+}
+
+@media screen and (max-width: 315px) {
+  .footer-icon img {
+    width: 20px;
+    height: 20px;
+    margin: 0px 12px;
+  }
+  .footer-list {
+    margin-bottom: 38px;
+  }
+  .footer-copyright {
+    text-align: center;
+    margin-top: 12px;
+  }
+
+  /* ----------------- frame5 --------- */
+}
+
+/* ------------------- ends ---------------- */
+
+/* ------------ for hamburger ----------- */
+@media screen and (max-width: 991px) {
+  .navbar-collapse {
+    background-color: black;
+  }
+  .nav-items {
+    background-color: rgba(255, 255, 255, 0.05);
+    margin: 5px;
+  }
+  .nav-butt {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    align-items: center;
+    padding: 10px;
+  }
+}
